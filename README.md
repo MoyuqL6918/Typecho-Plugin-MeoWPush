@@ -17,6 +17,8 @@ Typecho插件，将博客评论推送至HarmonyOS上的MeoW App
 全时可达：断网环境下仍可通过系统级缓存保障消息可达性。 
 MeoW，喵呜～，就像你家养的小猫一样，饿了它会喵喵叫，本应用也可以在一些事件发生时及时通知您。您可以在任何能够调用http接口的地方集成本应用提供的服务，在事件发生时触发调用http接口即可在您的手机上及时收到系统推送消息，即使应用没有在后台运行、留存。
 MeoW非常重视您的数据隐私，您可以选择是否保存推送消息在自己的手机上，MeoW绝不会保存您推送的消息在服务器上。您也可以在注册应用之后即把应用的联网权限关掉，这样也不会影响MeoW接收您的推送消息，打消您对数据上传到服务器的顾虑。
+## 使用教程
+下载仓库中的Plugin.php ,进入Typecho根目录-usr文件夹-plugins文件夹-新建MeoWPush文件夹-将Plugin.php放入-进入博客后台启用插件-填写MeoW昵称-进行更多自定义设置（非必要）-保存设置
 ## 友情链接
 MeoW App作者 [方程的博客](https://www.chuckfang.com/)
 [MeoW App -App Gallery ](https://appgallery.huawei.com/app/detail?id=com.chuckfang.meow&channelId=SHARE)
